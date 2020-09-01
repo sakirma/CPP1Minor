@@ -10,5 +10,7 @@
 using namespace std;
 
 void hi();
+void say_odd(int n);
+void say_even(int n);
 
 #endif //CPP1_FILE2_H
