@@ -18,7 +18,7 @@ int main ()
 
     *ptr1 = 78;
 
-    huseyin <3 Melisa
-
+    // Huseyin <3 Melisa
+    // Melisa I like C++ so much! wow!
     return 0;
 }
