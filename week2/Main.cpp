@@ -18,5 +18,7 @@ int main ()
 
     *ptr1 = 78;
 
+    huseyin <3 Melisa
+
     return 0;
 }
