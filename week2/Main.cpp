@@ -18,5 +18,7 @@ int main ()
 
     *ptr1 = 78;
 
+    Melisa I like C++ so much! wow!
+
     return 0;
 }
