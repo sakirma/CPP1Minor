@@ -13,3 +13,4 @@ add_executable(CPP1_NEWDAYStack DayWeekStack.cpp Day.h Week.h)
 
 add_executable(CPP1_DONTLEAK DontLeak.cpp)
 add_executable(CPP1_MyName MyName.cpp)
+add_executable(CPP1_CString CString.cpp)

@@ -141,6 +141,19 @@ CPP1\fast:
 .PHONY : CPP1\fast
 
 #=============================================================================
+# Target rules for targets named CPP1_CString
+
+# Build rule for target.
+CPP1_CString: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CPP1_CString
+.PHONY : CPP1_CString
+
+# fast build rule for target.
+CPP1_CString\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_CString.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_CString.dir\build
+.PHONY : CPP1_CString\fast
+
+#=============================================================================
 # Target rules for targets named CPP1_NEWDAYStack
 
 # Build rule for target.
@@ -204,6 +217,33 @@ CPP1_MyName: cmake_check_build_system
 CPP1_MyName\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_MyName.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_MyName.dir\build
 .PHONY : CPP1_MyName\fast
+
+CString.obj: CString.cpp.obj
+
+.PHONY : CString.obj
+
+# target to build an object file
+CString.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_CString.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_CString.dir\CString.cpp.obj
+.PHONY : CString.cpp.obj
+
+CString.i: CString.cpp.i
+
+.PHONY : CString.i
+
+# target to preprocess a source file
+CString.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_CString.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_CString.dir\CString.cpp.i
+.PHONY : CString.cpp.i
+
+CString.s: CString.cpp.s
+
+.PHONY : CString.s
+
+# target to generate assembly for a file
+CString.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_CString.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_CString.dir\CString.cpp.s
+.PHONY : CString.cpp.s
 
 Call.obj: Call.cpp.obj
 
@@ -404,11 +444,15 @@ help:
 	@echo ... rebuild_cache
 	@echo ... CPP1
 	@echo ... CPP1_CALL
+	@echo ... CPP1_CString
 	@echo ... CPP1_DONTLEAK
 	@echo ... CPP1_Favourite
 	@echo ... CPP1_MyName
 	@echo ... CPP1_NEWDAY
 	@echo ... CPP1_NEWDAYStack
+	@echo ... CString.obj
+	@echo ... CString.i
+	@echo ... CString.s
 	@echo ... Call.obj
 	@echo ... Call.i
 	@echo ... Call.s

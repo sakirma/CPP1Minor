@@ -59,6 +59,7 @@ CMAKE_BINARY_DIR = C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug
 # The main recursive "all" target.
 all: CMakeFiles\CPP1_Favourite.dir\all
 all: CMakeFiles\CPP1.dir\all
+all: CMakeFiles\CPP1_CString.dir\all
 all: CMakeFiles\CPP1_NEWDAYStack.dir\all
 all: CMakeFiles\CPP1_DONTLEAK.dir\all
 all: CMakeFiles\CPP1_NEWDAY.dir\all
@@ -75,6 +76,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles\CPP1_Favourite.dir\clean
 clean: CMakeFiles\CPP1.dir\clean
+clean: CMakeFiles\CPP1_CString.dir\clean
 clean: CMakeFiles\CPP1_NEWDAYStack.dir\clean
 clean: CMakeFiles\CPP1_DONTLEAK.dir\clean
 clean: CMakeFiles\CPP1_NEWDAY.dir\clean
@@ -90,7 +92,7 @@ clean: CMakeFiles\CPP1_MyName.dir\clean
 CMakeFiles\CPP1_Favourite.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_Favourite.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_Favourite.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_Favourite.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_Favourite.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target CPP1_Favourite"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target CPP1_Favourite"
 .PHONY : CMakeFiles\CPP1_Favourite.dir\all
 
 # Build rule for subdir invocation for target.
@@ -138,13 +140,40 @@ CMakeFiles\CPP1.dir\clean:
 .PHONY : CMakeFiles\CPP1.dir\clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/CPP1_CString.dir
+
+# All Build rule for target.
+CMakeFiles\CPP1_CString.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_CString.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_CString.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_CString.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_CString.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target CPP1_CString"
+.PHONY : CMakeFiles\CPP1_CString.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\CPP1_CString.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_CString.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\CPP1_CString.dir\rule
+
+# Convenience name for target.
+CPP1_CString: CMakeFiles\CPP1_CString.dir\rule
+
+.PHONY : CPP1_CString
+
+# clean rule for target.
+CMakeFiles\CPP1_CString.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_CString.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_CString.dir\clean
+.PHONY : CMakeFiles\CPP1_CString.dir\clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/CPP1_NEWDAYStack.dir
 
 # All Build rule for target.
 CMakeFiles\CPP1_NEWDAYStack.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_NEWDAYStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_NEWDAYStack.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_NEWDAYStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_NEWDAYStack.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target CPP1_NEWDAYStack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target CPP1_NEWDAYStack"
 .PHONY : CMakeFiles\CPP1_NEWDAYStack.dir\all
 
 # Build rule for subdir invocation for target.
@@ -171,7 +200,7 @@ CMakeFiles\CPP1_NEWDAYStack.dir\clean:
 CMakeFiles\CPP1_DONTLEAK.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_DONTLEAK.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_DONTLEAK.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_DONTLEAK.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_DONTLEAK.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target CPP1_DONTLEAK"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target CPP1_DONTLEAK"
 .PHONY : CMakeFiles\CPP1_DONTLEAK.dir\all
 
 # Build rule for subdir invocation for target.
@@ -198,7 +227,7 @@ CMakeFiles\CPP1_DONTLEAK.dir\clean:
 CMakeFiles\CPP1_NEWDAY.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_NEWDAY.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_NEWDAY.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_NEWDAY.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_NEWDAY.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target CPP1_NEWDAY"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target CPP1_NEWDAY"
 .PHONY : CMakeFiles\CPP1_NEWDAY.dir\all
 
 # Build rule for subdir invocation for target.
@@ -252,7 +281,7 @@ CMakeFiles\CPP1_CALL.dir\clean:
 CMakeFiles\CPP1_MyName.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_MyName.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_MyName.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_MyName.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_MyName.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target CPP1_MyName"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target CPP1_MyName"
 .PHONY : CMakeFiles\CPP1_MyName.dir\all
 
 # Build rule for subdir invocation for target.

@@ -1,5 +1,6 @@
 C:/Users/husey/Desktop/CPP1Minor/week2/cmake-build-debug/CMakeFiles/CPP1_Favourite.dir
 C:/Users/husey/Desktop/CPP1Minor/week2/cmake-build-debug/CMakeFiles/CPP1.dir
+C:/Users/husey/Desktop/CPP1Minor/week2/cmake-build-debug/CMakeFiles/CPP1_CString.dir
 C:/Users/husey/Desktop/CPP1Minor/week2/cmake-build-debug/CMakeFiles/CPP1_NEWDAYStack.dir
 C:/Users/husey/Desktop/CPP1Minor/week2/cmake-build-debug/CMakeFiles/CPP1_DONTLEAK.dir
 C:/Users/husey/Desktop/CPP1Minor/week2/cmake-build-debug/CMakeFiles/CPP1_NEWDAY.dir

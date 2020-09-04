@@ -49,6 +49,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/CPP1_Favourite.dir/DependInfo.cmake"
   "CMakeFiles/CPP1.dir/DependInfo.cmake"
+  "CMakeFiles/CPP1_CString.dir/DependInfo.cmake"
   "CMakeFiles/CPP1_NEWDAYStack.dir/DependInfo.cmake"
   "CMakeFiles/CPP1_DONTLEAK.dir/DependInfo.cmake"
   "CMakeFiles/CPP1_NEWDAY.dir/DependInfo.cmake"
