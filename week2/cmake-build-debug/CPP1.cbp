@@ -17,6 +17,52 @@
 					<DistClean command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="CPP1_Favourite">
+				<Option output="C:/Users/husey/Desktop/CPP1Minor/week2/cmake-build-debug/CPP1_Favourite.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/husey/Desktop/CPP1Minor/week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 CPP1_Favourite"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CPP1_Favourite/fast">
+				<Option output="C:/Users/husey/Desktop/CPP1Minor/week2/cmake-build-debug/CPP1_Favourite.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/husey/Desktop/CPP1Minor/week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 CPP1_Favourite/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="CPP1">
 				<Option output="C:/Users/husey/Desktop/CPP1Minor/week2/cmake-build-debug/CPP1.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/husey/Desktop/CPP1Minor/week2/cmake-build-debug"/>
@@ -63,6 +109,236 @@
 					<DistClean command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="CPP1_NEWDAYStack">
+				<Option output="C:/Users/husey/Desktop/CPP1Minor/week2/cmake-build-debug/CPP1_NEWDAYStack.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/husey/Desktop/CPP1Minor/week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 CPP1_NEWDAYStack"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CPP1_NEWDAYStack/fast">
+				<Option output="C:/Users/husey/Desktop/CPP1Minor/week2/cmake-build-debug/CPP1_NEWDAYStack.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/husey/Desktop/CPP1Minor/week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 CPP1_NEWDAYStack/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CPP1_DONTLEAK">
+				<Option output="C:/Users/husey/Desktop/CPP1Minor/week2/cmake-build-debug/CPP1_DONTLEAK.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/husey/Desktop/CPP1Minor/week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 CPP1_DONTLEAK"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CPP1_DONTLEAK/fast">
+				<Option output="C:/Users/husey/Desktop/CPP1Minor/week2/cmake-build-debug/CPP1_DONTLEAK.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/husey/Desktop/CPP1Minor/week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 CPP1_DONTLEAK/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CPP1_NEWDAY">
+				<Option output="C:/Users/husey/Desktop/CPP1Minor/week2/cmake-build-debug/CPP1_NEWDAY.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/husey/Desktop/CPP1Minor/week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 CPP1_NEWDAY"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CPP1_NEWDAY/fast">
+				<Option output="C:/Users/husey/Desktop/CPP1Minor/week2/cmake-build-debug/CPP1_NEWDAY.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/husey/Desktop/CPP1Minor/week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 CPP1_NEWDAY/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CPP1_CALL">
+				<Option output="C:/Users/husey/Desktop/CPP1Minor/week2/cmake-build-debug/CPP1_CALL.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/husey/Desktop/CPP1Minor/week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 CPP1_CALL"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CPP1_CALL/fast">
+				<Option output="C:/Users/husey/Desktop/CPP1Minor/week2/cmake-build-debug/CPP1_CALL.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/husey/Desktop/CPP1Minor/week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 CPP1_CALL/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CPP1_MyName">
+				<Option output="C:/Users/husey/Desktop/CPP1Minor/week2/cmake-build-debug/CPP1_MyName.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/husey/Desktop/CPP1Minor/week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 CPP1_MyName"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CPP1_MyName/fast">
+				<Option output="C:/Users/husey/Desktop/CPP1Minor/week2/cmake-build-debug/CPP1_MyName.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/husey/Desktop/CPP1Minor/week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 CPP1_MyName/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\husey\Desktop\CPP1Minor\week2\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="C:/Users/husey/Desktop/CPP1Minor/week2/cmake-build-debug"/>
 				<Option type="4"/>
@@ -84,8 +360,38 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/husey/Desktop/CPP1Minor/week2/Call.cpp">
+			<Option target="CPP1_CALL"/>
+		</Unit>
+		<Unit filename="C:/Users/husey/Desktop/CPP1Minor/week2/Day.h">
+			<Option target="CPP1"/>
+			<Option target="CPP1_NEWDAYStack"/>
+			<Option target="CPP1_NEWDAY"/>
+		</Unit>
+		<Unit filename="C:/Users/husey/Desktop/CPP1Minor/week2/DayWeekStack.cpp">
+			<Option target="CPP1_NEWDAYStack"/>
+		</Unit>
+		<Unit filename="C:/Users/husey/Desktop/CPP1Minor/week2/DontLeak.cpp">
+			<Option target="CPP1_DONTLEAK"/>
+		</Unit>
+		<Unit filename="C:/Users/husey/Desktop/CPP1Minor/week2/Favourite.cpp">
+			<Option target="CPP1_Favourite"/>
+		</Unit>
+		<Unit filename="C:/Users/husey/Desktop/CPP1Minor/week2/Favourite.h">
+			<Option target="CPP1_Favourite"/>
+		</Unit>
 		<Unit filename="C:/Users/husey/Desktop/CPP1Minor/week2/Main.cpp">
 			<Option target="CPP1"/>
+		</Unit>
+		<Unit filename="C:/Users/husey/Desktop/CPP1Minor/week2/MyName.cpp">
+			<Option target="CPP1_MyName"/>
+		</Unit>
+		<Unit filename="C:/Users/husey/Desktop/CPP1Minor/week2/NewDay.cpp">
+			<Option target="CPP1_NEWDAY"/>
+		</Unit>
+		<Unit filename="C:/Users/husey/Desktop/CPP1Minor/week2/Week.h">
+			<Option target="CPP1_NEWDAYStack"/>
+			<Option target="CPP1_NEWDAY"/>
 		</Unit>
 		<Unit filename="C:/Users/husey/Desktop/CPP1Minor/week2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

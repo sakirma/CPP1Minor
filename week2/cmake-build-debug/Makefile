@@ -115,6 +115,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named CPP1_Favourite
+
+# Build rule for target.
+CPP1_Favourite: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CPP1_Favourite
+.PHONY : CPP1_Favourite
+
+# fast build rule for target.
+CPP1_Favourite\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_Favourite.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_Favourite.dir\build
+.PHONY : CPP1_Favourite\fast
+
+#=============================================================================
 # Target rules for targets named CPP1
 
 # Build rule for target.
@@ -126,6 +139,179 @@ CPP1: cmake_check_build_system
 CPP1\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1.dir\build
 .PHONY : CPP1\fast
+
+#=============================================================================
+# Target rules for targets named CPP1_NEWDAYStack
+
+# Build rule for target.
+CPP1_NEWDAYStack: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CPP1_NEWDAYStack
+.PHONY : CPP1_NEWDAYStack
+
+# fast build rule for target.
+CPP1_NEWDAYStack\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_NEWDAYStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_NEWDAYStack.dir\build
+.PHONY : CPP1_NEWDAYStack\fast
+
+#=============================================================================
+# Target rules for targets named CPP1_DONTLEAK
+
+# Build rule for target.
+CPP1_DONTLEAK: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CPP1_DONTLEAK
+.PHONY : CPP1_DONTLEAK
+
+# fast build rule for target.
+CPP1_DONTLEAK\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_DONTLEAK.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_DONTLEAK.dir\build
+.PHONY : CPP1_DONTLEAK\fast
+
+#=============================================================================
+# Target rules for targets named CPP1_NEWDAY
+
+# Build rule for target.
+CPP1_NEWDAY: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CPP1_NEWDAY
+.PHONY : CPP1_NEWDAY
+
+# fast build rule for target.
+CPP1_NEWDAY\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_NEWDAY.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_NEWDAY.dir\build
+.PHONY : CPP1_NEWDAY\fast
+
+#=============================================================================
+# Target rules for targets named CPP1_CALL
+
+# Build rule for target.
+CPP1_CALL: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CPP1_CALL
+.PHONY : CPP1_CALL
+
+# fast build rule for target.
+CPP1_CALL\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_CALL.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_CALL.dir\build
+.PHONY : CPP1_CALL\fast
+
+#=============================================================================
+# Target rules for targets named CPP1_MyName
+
+# Build rule for target.
+CPP1_MyName: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CPP1_MyName
+.PHONY : CPP1_MyName
+
+# fast build rule for target.
+CPP1_MyName\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_MyName.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_MyName.dir\build
+.PHONY : CPP1_MyName\fast
+
+Call.obj: Call.cpp.obj
+
+.PHONY : Call.obj
+
+# target to build an object file
+Call.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_CALL.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_CALL.dir\Call.cpp.obj
+.PHONY : Call.cpp.obj
+
+Call.i: Call.cpp.i
+
+.PHONY : Call.i
+
+# target to preprocess a source file
+Call.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_CALL.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_CALL.dir\Call.cpp.i
+.PHONY : Call.cpp.i
+
+Call.s: Call.cpp.s
+
+.PHONY : Call.s
+
+# target to generate assembly for a file
+Call.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_CALL.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_CALL.dir\Call.cpp.s
+.PHONY : Call.cpp.s
+
+DayWeekStack.obj: DayWeekStack.cpp.obj
+
+.PHONY : DayWeekStack.obj
+
+# target to build an object file
+DayWeekStack.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_NEWDAYStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_NEWDAYStack.dir\DayWeekStack.cpp.obj
+.PHONY : DayWeekStack.cpp.obj
+
+DayWeekStack.i: DayWeekStack.cpp.i
+
+.PHONY : DayWeekStack.i
+
+# target to preprocess a source file
+DayWeekStack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_NEWDAYStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_NEWDAYStack.dir\DayWeekStack.cpp.i
+.PHONY : DayWeekStack.cpp.i
+
+DayWeekStack.s: DayWeekStack.cpp.s
+
+.PHONY : DayWeekStack.s
+
+# target to generate assembly for a file
+DayWeekStack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_NEWDAYStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_NEWDAYStack.dir\DayWeekStack.cpp.s
+.PHONY : DayWeekStack.cpp.s
+
+DontLeak.obj: DontLeak.cpp.obj
+
+.PHONY : DontLeak.obj
+
+# target to build an object file
+DontLeak.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_DONTLEAK.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_DONTLEAK.dir\DontLeak.cpp.obj
+.PHONY : DontLeak.cpp.obj
+
+DontLeak.i: DontLeak.cpp.i
+
+.PHONY : DontLeak.i
+
+# target to preprocess a source file
+DontLeak.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_DONTLEAK.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_DONTLEAK.dir\DontLeak.cpp.i
+.PHONY : DontLeak.cpp.i
+
+DontLeak.s: DontLeak.cpp.s
+
+.PHONY : DontLeak.s
+
+# target to generate assembly for a file
+DontLeak.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_DONTLEAK.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_DONTLEAK.dir\DontLeak.cpp.s
+.PHONY : DontLeak.cpp.s
+
+Favourite.obj: Favourite.cpp.obj
+
+.PHONY : Favourite.obj
+
+# target to build an object file
+Favourite.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_Favourite.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_Favourite.dir\Favourite.cpp.obj
+.PHONY : Favourite.cpp.obj
+
+Favourite.i: Favourite.cpp.i
+
+.PHONY : Favourite.i
+
+# target to preprocess a source file
+Favourite.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_Favourite.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_Favourite.dir\Favourite.cpp.i
+.PHONY : Favourite.cpp.i
+
+Favourite.s: Favourite.cpp.s
+
+.PHONY : Favourite.s
+
+# target to generate assembly for a file
+Favourite.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_Favourite.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_Favourite.dir\Favourite.cpp.s
+.PHONY : Favourite.cpp.s
 
 Main.obj: Main.cpp.obj
 
@@ -154,6 +340,60 @@ Main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1.dir\Main.cpp.s
 .PHONY : Main.cpp.s
 
+MyName.obj: MyName.cpp.obj
+
+.PHONY : MyName.obj
+
+# target to build an object file
+MyName.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_MyName.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_MyName.dir\MyName.cpp.obj
+.PHONY : MyName.cpp.obj
+
+MyName.i: MyName.cpp.i
+
+.PHONY : MyName.i
+
+# target to preprocess a source file
+MyName.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_MyName.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_MyName.dir\MyName.cpp.i
+.PHONY : MyName.cpp.i
+
+MyName.s: MyName.cpp.s
+
+.PHONY : MyName.s
+
+# target to generate assembly for a file
+MyName.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_MyName.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_MyName.dir\MyName.cpp.s
+.PHONY : MyName.cpp.s
+
+NewDay.obj: NewDay.cpp.obj
+
+.PHONY : NewDay.obj
+
+# target to build an object file
+NewDay.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_NEWDAY.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_NEWDAY.dir\NewDay.cpp.obj
+.PHONY : NewDay.cpp.obj
+
+NewDay.i: NewDay.cpp.i
+
+.PHONY : NewDay.i
+
+# target to preprocess a source file
+NewDay.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_NEWDAY.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_NEWDAY.dir\NewDay.cpp.i
+.PHONY : NewDay.cpp.i
+
+NewDay.s: NewDay.cpp.s
+
+.PHONY : NewDay.s
+
+# target to generate assembly for a file
+NewDay.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_NEWDAY.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_NEWDAY.dir\NewDay.cpp.s
+.PHONY : NewDay.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -163,9 +403,33 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CPP1
+	@echo ... CPP1_CALL
+	@echo ... CPP1_DONTLEAK
+	@echo ... CPP1_Favourite
+	@echo ... CPP1_MyName
+	@echo ... CPP1_NEWDAY
+	@echo ... CPP1_NEWDAYStack
+	@echo ... Call.obj
+	@echo ... Call.i
+	@echo ... Call.s
+	@echo ... DayWeekStack.obj
+	@echo ... DayWeekStack.i
+	@echo ... DayWeekStack.s
+	@echo ... DontLeak.obj
+	@echo ... DontLeak.i
+	@echo ... DontLeak.s
+	@echo ... Favourite.obj
+	@echo ... Favourite.i
+	@echo ... Favourite.s
 	@echo ... Main.obj
 	@echo ... Main.i
 	@echo ... Main.s
+	@echo ... MyName.obj
+	@echo ... MyName.i
+	@echo ... MyName.s
+	@echo ... NewDay.obj
+	@echo ... NewDay.i
+	@echo ... NewDay.s
 .PHONY : help
 
 
