@@ -47,5 +47,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/CPP1_Favourite.dir/DependInfo.cmake"
   "CMakeFiles/CPP1.dir/DependInfo.cmake"
+  "CMakeFiles/CPP1_NEWDAYStack.dir/DependInfo.cmake"
+  "CMakeFiles/CPP1_DONTLEAK.dir/DependInfo.cmake"
+  "CMakeFiles/CPP1_NEWDAY.dir/DependInfo.cmake"
+  "CMakeFiles/CPP1_CALL.dir/DependInfo.cmake"
+  "CMakeFiles/CPP1_MyName.dir/DependInfo.cmake"
   )
