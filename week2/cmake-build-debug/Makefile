@@ -218,6 +218,46 @@ CPP1_MyName\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_MyName.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_MyName.dir\build
 .PHONY : CPP1_MyName\fast
 
+#=============================================================================
+# Target rules for targets named CPP1_BufferOverflow
+
+# Build rule for target.
+CPP1_BufferOverflow: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CPP1_BufferOverflow
+.PHONY : CPP1_BufferOverflow
+
+# fast build rule for target.
+CPP1_BufferOverflow\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_BufferOverflow.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_BufferOverflow.dir\build
+.PHONY : CPP1_BufferOverflow\fast
+
+BufferOverflow.obj: BufferOverflow.cpp.obj
+
+.PHONY : BufferOverflow.obj
+
+# target to build an object file
+BufferOverflow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_BufferOverflow.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_BufferOverflow.dir\BufferOverflow.cpp.obj
+.PHONY : BufferOverflow.cpp.obj
+
+BufferOverflow.i: BufferOverflow.cpp.i
+
+.PHONY : BufferOverflow.i
+
+# target to preprocess a source file
+BufferOverflow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_BufferOverflow.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_BufferOverflow.dir\BufferOverflow.cpp.i
+.PHONY : BufferOverflow.cpp.i
+
+BufferOverflow.s: BufferOverflow.cpp.s
+
+.PHONY : BufferOverflow.s
+
+# target to generate assembly for a file
+BufferOverflow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP1_BufferOverflow.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPP1_BufferOverflow.dir\BufferOverflow.cpp.s
+.PHONY : BufferOverflow.cpp.s
+
 CString.obj: CString.cpp.obj
 
 .PHONY : CString.obj
@@ -443,6 +483,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CPP1
+	@echo ... CPP1_BufferOverflow
 	@echo ... CPP1_CALL
 	@echo ... CPP1_CString
 	@echo ... CPP1_DONTLEAK
@@ -450,6 +491,9 @@ help:
 	@echo ... CPP1_MyName
 	@echo ... CPP1_NEWDAY
 	@echo ... CPP1_NEWDAYStack
+	@echo ... BufferOverflow.obj
+	@echo ... BufferOverflow.i
+	@echo ... BufferOverflow.s
 	@echo ... CString.obj
 	@echo ... CString.i
 	@echo ... CString.s
