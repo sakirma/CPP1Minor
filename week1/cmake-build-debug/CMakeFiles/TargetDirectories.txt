@@ -1,4 +1,0 @@
-C:/Users/husey/Desktop/CPP1Minor/week1/cmake-build-debug/CMakeFiles/CPP1.dir
-C:/Users/husey/Desktop/CPP1Minor/week1/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/husey/Desktop/CPP1Minor/week1/cmake-build-debug/CMakeFiles/CPP1_AAP.dir
-C:/Users/husey/Desktop/CPP1Minor/week1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
