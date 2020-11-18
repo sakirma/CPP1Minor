@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/husey/Desktop/CPPMinor/CPP2/week2/Observable.cpp">
+			<Option target="week2"/>
+		</Unit>
+		<Unit filename="C:/Users/husey/Desktop/CPPMinor/CPP2/week2/Observable.h">
+			<Option target="week2"/>
+		</Unit>
 		<Unit filename="C:/Users/husey/Desktop/CPPMinor/CPP2/week2/main.cpp">
 			<Option target="week2"/>
 		</Unit>
